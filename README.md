@@ -6,7 +6,7 @@ a simple script with simplicity in mind. create a MacOS virtual machine with vir
 
 ## Dependencies
 ```bash
-sudo apt-get install qemu-system qemu-utils python3 python3-pip  # for Ubuntu, Debian, Mint, and PopOS.
+sudo apt-get install qemu-system qemu-utils python3 python3-pip python3-pyfiglet  # for Ubuntu, Debian, Mint, and PopOS.
 sudo pacman -S qemu python python-pip python-wheel  # for Arch.
 sudo xbps-install -Su qemu python3 python3-pip   # for Void Linux.
 sudo zypper in qemu-tools qemu-kvm qemu-x86 qemu-audio-pa python3-pip  # for openSUSE Tumbleweed
